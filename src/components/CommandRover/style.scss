@@ -1,0 +1,25 @@
+.command-rover {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 8px;
+  padding: 36px;
+  box-shadow: 2px 2px 30px #00000010;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__item {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    h4{
+      margin-bottom: 4px;
+    }
+  }
+}

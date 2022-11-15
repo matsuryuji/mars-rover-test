@@ -1,0 +1,33 @@
+button {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  background-color: #0951e0;
+  color: var(--color-base_white);
+  width: 100%;
+  text-transform: uppercase;
+  border-color: #0951e0;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  border: 0px;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #fff;
+
+  &:hover {
+    opacity: 0.8;
+
+  }
+}

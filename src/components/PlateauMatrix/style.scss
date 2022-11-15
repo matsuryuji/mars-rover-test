@@ -1,0 +1,56 @@
+.plateau-matrix {
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  &__column {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e3e3e3;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 2px 2px 30px #00000010;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cecece;
+    background-color: #f4f4f4;
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    position: relative;
+  }
+
+}
+
+img {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  justify-content: center;
+  filter: invert(1);
+}
+span {
+  font-size: 10px;
+  padding-top: 4px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
